@@ -30,7 +30,7 @@ jobs:
             name: hello.txt
             path: ./artifacts
         
-      -  name: Display file content
+      -  name: Display file contents
          run: cat ./artifacts/hello.txt
 
 
